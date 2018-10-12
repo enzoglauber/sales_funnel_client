@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+body {
+  background-color: #E6E6E6;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+}
+
+.btn-add {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #417DE3;
+  border-bottom: 3px solid #2471A9;
+}
+.btn-add img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+.btn-add:hover {
+  background-color: #1c5ed0;
+}
+
+.card {
+  margin-bottom: 3px;
+  color: #6D6F76;
+  font-size: 14px;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.08);
+}
+.card .card-body, .card .card-header {
+  padding: 5px 10px;
+}
+.card.header {
+  color: white;
+  border-radius: 0;
+  background-color: #6178A8;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.card.header .card-body {
+  background-color: #556992;
+}
+.card.header .card-header {
+  font-size: 18px;
+}
+.card.header .card-header, .card.header .total {
+  font-style: italic;
+  font-weight: bold;
+}
+.card.header .total, .card.header .count {
+  font-size: 16px;
+  line-height: 26px;
+}
+.card.header.stage-5 {
+  background-color: #53B55D;
+}
+.card.header.stage-5 .card-body {
+  background-color: #459D52;
+}
+.card.header.stage-6 {
+  background-color: #B05658;
+}
+.card.header.stage-6 .card-body {
+  background-color: #904143;
+}
+.card .title {
+  font-weight: bold;
+}
+.card .customer i {
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row .col-sm-2, .row .col-12 {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+/*# sourceMappingURL=index.css.map */

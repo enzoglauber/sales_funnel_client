@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - '4000:3000'
+    volumes:
+      - '.:/sales_funnel_client'
+    environment:
+      - NODE_ENV=development
